@@ -1,0 +1,181 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+body {
+  background-color: #161717;
+}
+.container {
+  width: 33%;
+  margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; */
+}
+
+#titulo {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
+.encabezado {
+  display: flex;
+  gap: 20px;
+  /* justify-content: center; */
+  margin: 20px 0;
+}
+
+.google-btn {
+  height: 40px;
+  /* width: 250px; */
+  display: flex;
+  align-items: center;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  opacity: .7;
+}
+
+.google-btn picture {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img {
+  width: 55%;
+}
+
+.google-btn span {
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.twitter-btn {
+  width: 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.twitter-btn:hover{
+  opacity: .7;
+}
+
+.separador {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.separador hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid rgb(214, 211, 211);
+}
+
+.separador, hr span {
+  color: #afa6a6;
+}
+
+.form-nombres div {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* flex-direction: row; */
+  /* gap: 30px; */
+  /* flex-wrap: wrap; */
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  padding: 15px 4px 15px 9px;
+  border: none;
+  border-radius: 5px;
+  background-color: #212121;
+  margin-bottom: 20px;
+}
+
+.input:hover {
+  background-color: #454045;
+  border: solid 1px #F3F3F4;
+  box-shadow: 0 0 4px #ea4c89;
+}
+
+.input:focus {
+  background-color: white;
+  border: solid 1px #F3F3F4;
+  box-shadow: 0 0 4px #ea4c89;
+}
+
+
+.subtitulos {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.terminos label {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  /* flex-direction: column; */
+  margin: 10px 0 30px 0;
+}
+
+.terminos label input {
+  padding: 0;
+  margin: 10px;
+  width: 20px;
+}
+.terminos label p{
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  color: #6e6c6c;
+  cursor: pointer;
+}
+
+.terminos label p a {
+  text-decoration: none;
+  color: #2846cc;
+}
+
+.submit {
+  padding: 13px 50px;
+  border: none;
+  border-radius: 7px;
+  background-color: #ea4c89;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  opacity: .7;
+}
+
+.copy {
+  color: #afa6a6;
+}
+
+.copy a {
+  text-decoration: none;
+  color: #2846cc;
+}

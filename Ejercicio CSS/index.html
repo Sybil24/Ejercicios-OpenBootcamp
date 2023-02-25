@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réplica Formulario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <p id="titulo">Sign up to Dribbble</p>
+    <section class="encabezado">
+      <button class="google-btn">
+        <picture>
+          <img src="https://entredichos.trabajosocial.unlp.edu.ar/wp-content/uploads/sites/6/2016/12/Google_-G-_Logo.svg_.png" alt="logo google">
+        </picture>
+        <span>Registrarse con Google</span>
+      </button>
+      <button class="twitter-btn">T</button>
+    </section>
+
+    <section class="separador">
+        <hr><span>Or</span><hr>
+    </section>
+
+    <section class="form-nombres">
+      <form action="/" method="post">
+        <div>
+          <label for="nombre">
+           <p class="subtitulos">Name</p>
+           <input class="input" type="text" id="nombre" name="nombre" required>
+          </label>
+          <label for="username">
+           <p class="subtitulos">Username</p>
+           <input class="input" type="text" id="username" name="username" required>
+          </label>          
+        </div>
+        <label for="email">
+          <p class="subtitulos">Email</p>
+          <input class="input" type="email" id="email" name="email" required>
+        </label>
+        <label for="password">
+          <p class="subtitulos">Password</p>
+          <input class="input" type="password" id="password" name="password" placeholder="6+ characters" required>
+        </label>
+        <div class="terminos">
+          <label for="checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <p>Creating an account means you’re okay with our <a href="">Terms of Service,</a> <a href="">Privacy Policy,</a> and our default <a href="">Notification Settings.</a></p>
+          </label>
+        </div>
+        <button class="submit" type="submit">Create Account</button> <br>
+        <small class="copy">This site is protected by reCAPTCHA and the Google <br><a href="">Privacy Policy</a>  and <a href="">Terms of Service</a>  apply.</small>
+      </form>
+    </section>    
+  </div>
+</body>
+</html>
